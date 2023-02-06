@@ -1,0 +1,15 @@
+Bra användande av arv
+
+Ovanligt att itne spara medierna i någon datastruktur utan direkt till fil. 
+
+add_media
+	DRY - Du har tre kodblock som alla är rätt lika. Hade det gått att göra funktion av istället?
+add_media bör döpas om till write_media_to_file
+
+jag tycker det är lite konstigt att boken själv skriver sig till fil
+känns mer logiskt om en biblioteks-klass hade hanterat det.
+
+Registrering av olika medier är alla rätt lika. Hade det gått att göra som en funktion med olika argument?
+Oavsett- lyft ut de olika registreringarna som separata funktioner
+
+sort_and_print borde tillhöra en biblioteksklass
